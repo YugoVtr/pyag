@@ -3,10 +3,11 @@
 @author: Yugo
 """
 
-from genetic_algorithm.Abstract_Genetic_Algorithm import AGA
+from genetic_algorithm.Aga import Aga
 
 def main(): 
-    ag = AGA()
+    ag = Aga()
+    ag.execute()
 
 if __name__ == "__main__":
     main()
